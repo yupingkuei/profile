@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,300&family=Sansita+Swashed:wght@600&display=swap');
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffa62b;
+  color: rgba(255,255,255);
+  font-size: 20px;
+  /*line-height: 10px;*/
+}
+h1, h2 {
+  font-family: 'Sansita Swashed', cursive;
+  line-height: 30px;
+  text-shadow: 3px 3px 1px #ffa5a5;
+}
+.round-image {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+
+.image-shadow {
+  border: inset;
+}
+.card {
+  text-align: center;
+  background: #16697A;
+  padding: 30px;
+  box-shadow: 1px 1px 1px white;
+  margin: 10px 3px;
+  border-radius: 3px;
+}
+#button {
+  background-color: #d7385e;
+  text-decoration: none;
+  color: rgba(255,255,255);
+  padding: 15px 20px;
+  border-radius: 3px;
+  display: inline-block;
+  box-shadow: 2px 2px 2px gray;
+}
+#button:hover {
+  background-color: #ffa5a5;
+  transition: 500ms;
+}
+
+ul > li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul {
+  padding: 0;
+}
+
+i {
+  color: #ffa62b;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px white;
+}
+
+i:hover {
+  color: #d7385e;
+  transition: 200ms;
+}
